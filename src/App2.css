@@ -1,0 +1,90 @@
+.App2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.products-container {
+  width: 80%;
+  min-height: 15%;
+  max-height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 0.5px solid rgb(31, 31, 31);
+  border-radius: 2vw;
+
+  overflow-y: auto;
+}
+
+.product-container {
+  width: 85%;
+  height: 20%;
+  border-bottom: 0.3px solid rgb(31, 31, 31);
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-container p {
+  width: 28%;
+  text-align: center;
+  border-right: 0.2px solid rgb(31, 31, 31);
+}
+
+.product-container .bold {
+  font-weight: 500;
+}
+
+.product-container button {
+  width: 10%;
+  margin: 0 0 0 6%;
+  background-color: transparent;
+  border: 0.1px solid rgba(31, 31, 31, 0.39);
+  border-radius: 2vw;
+  cursor: pointer;
+}
+
+.buttons-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 0 5vh 0;
+}
+
+.buttons-container button {
+  width: 20%;
+  height: 8vh;
+  background-color: transparent;
+  border: 0.5px solid rgb(31, 31, 31);
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+
+.user-info {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 0 5vh 0;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 1.5vw;
+  font-weight: 500;
+}

@@ -1,0 +1,48 @@
+.modal-product-view {
+  display: flex;
+  position: fixed;
+  z-index: 25;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.modal-product-content {
+  background-color: #FFFFFF;
+  margin: auto;
+  padding: 5vh 0;
+  width: 36vw;
+  height: 62vh;
+  border-radius: 2vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-product-content input {
+  width: 70%;
+  height: 5vh;
+  padding: 0 5%;
+  margin: 2vh 0;
+  font-size: 1vw;
+}
+
+.modal-product-content button {
+  width: 35%;
+  height: 4vh;
+  margin: 1vh 0;
+  border: 0.5px solid rgb(31, 31, 31);
+  background-color: #FFFFFF;
+  border-radius: 2vw;
+  cursor: pointer;
+}
+
+.modal-product-content .red {
+  background-color: #ff6161;
+  color: #FFFFFF;
+}
