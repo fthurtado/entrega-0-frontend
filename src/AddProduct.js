@@ -2,7 +2,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import './AddProduct.css';
 
-const API_URL = 'http://localhost:8000/';
+const API_URL = 'http://fthurtado-entrega-0.tk/';
 
 function AddProduct(props) {
   const {
