@@ -4,7 +4,7 @@ import './App2.css';
 import AddProduct from './AddProduct';
 import BuyProduct from './BuyProduct';
 
-const API_URL = 'http://api.fthurtado-entrega-0.tk/';
+const API_URL = 'https://api.fthurtado-entrega-0.tk/';
 
 function App2(props) {
   const {
