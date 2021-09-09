@@ -41,6 +41,9 @@ function App() {
         method: 'POST',
         url,
         data,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+        },
       })
         .then((res) => res.data)
         .then((res) => setUser(res))
