@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 import App2 from './App2';
 
-const API_URL = 'https://api.fthurtado-entrega-0.tk/';
+const API_URL = 'https://api.entrega-0-fthurtado.tk/';
 const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,3}))$/;
 
 function App() {
